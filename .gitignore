@@ -1,0 +1,42 @@
+## Visual Studio
+.vs/
+bin/
+obj/
+*.tmp
+*.Backup.tmp
+*.backup
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.docstates
+*.suo
+*.clw
+*.ncb
+*.aps
+*.plg
+*.opt
+*.ilk
+*.idb
+*.sbr
+*.res
+*.rc2
+*.cache
+*.dgspec.json
+project.assets.json
+project.nuget.cache
+*.nuget.g.props
+*.nuget.g.targets
+
+## Rider
+.idea/
+
+## VS Code
+.vscode/
+
+## Operating System files
+.DS_Store
+Thumbs.db
+
+## Publish output
+publish/

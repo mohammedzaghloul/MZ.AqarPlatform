@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.4.11620.152
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AqarPlatform.Domain", "AqarPlatform.Domain\AqarPlatform.Domain.csproj", "{574FD9D7-6DF6-4BD2-8DBB-468FB6355347}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AqarPlatform.Infrastructure", "AqarPlatform.Infrastructure\AqarPlatform.Infrastructure.csproj", "{A22D422B-577C-4D46-B905-8749A001CCEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AqarPlatform.Persistence", "AqarPlatform.Persistence\AqarPlatform.Persistence.csproj", "{65F8E208-EE65-416F-ADCA-292593640B3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AqarPlatform.Application", "AqarPlatform.Application\AqarPlatform.Application.csproj", "{118217A8-8CED-49FE-B07B-991B485104D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AqarPlatform.Shared", "AqarPlatform.Shared\AqarPlatform.Shared.csproj", "{78EFCDCB-A474-4724-8135-3AACB2919F26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AqarPlatform.Api", "AqarPlatform.Api\AqarPlatform.Api.csproj", "{0B307E1F-5845-4413-985E-748220287766}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{574FD9D7-6DF6-4BD2-8DBB-468FB6355347}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{574FD9D7-6DF6-4BD2-8DBB-468FB6355347}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{574FD9D7-6DF6-4BD2-8DBB-468FB6355347}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{574FD9D7-6DF6-4BD2-8DBB-468FB6355347}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A22D422B-577C-4D46-B905-8749A001CCEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A22D422B-577C-4D46-B905-8749A001CCEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A22D422B-577C-4D46-B905-8749A001CCEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A22D422B-577C-4D46-B905-8749A001CCEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65F8E208-EE65-416F-ADCA-292593640B3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65F8E208-EE65-416F-ADCA-292593640B3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65F8E208-EE65-416F-ADCA-292593640B3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65F8E208-EE65-416F-ADCA-292593640B3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{118217A8-8CED-49FE-B07B-991B485104D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{118217A8-8CED-49FE-B07B-991B485104D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{118217A8-8CED-49FE-B07B-991B485104D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{118217A8-8CED-49FE-B07B-991B485104D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78EFCDCB-A474-4724-8135-3AACB2919F26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78EFCDCB-A474-4724-8135-3AACB2919F26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78EFCDCB-A474-4724-8135-3AACB2919F26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78EFCDCB-A474-4724-8135-3AACB2919F26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B307E1F-5845-4413-985E-748220287766}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B307E1F-5845-4413-985E-748220287766}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B307E1F-5845-4413-985E-748220287766}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B307E1F-5845-4413-985E-748220287766}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {537776D2-21E4-4843-A47D-745A8F19DD6E}
+	EndGlobalSection
+EndGlobal

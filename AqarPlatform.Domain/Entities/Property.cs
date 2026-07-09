@@ -41,5 +41,7 @@ namespace AqarPlatform.Domain.Entities
         public ICollection<PropertyFeature> PropertyFeatures { get; set; } = [];
 
         public ICollection<Favorite> Favorites { get; set; } = [];
+        public ICollection<ContactMessage> ContactMessages { get; set; } = [];
+
     }
 }

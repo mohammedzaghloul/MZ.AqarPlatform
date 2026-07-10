@@ -42,6 +42,7 @@ namespace AqarPlatform.Domain.Entities
 
         public ICollection<Favorite> Favorites { get; set; } = [];
         public ICollection<ContactMessage> ContactMessages { get; set; } = [];
+        public ICollection<Review> Reviews { get; set; } = new HashSet<Review>();
 
     }
 }

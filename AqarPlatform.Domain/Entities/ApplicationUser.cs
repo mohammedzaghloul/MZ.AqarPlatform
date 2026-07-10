@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Identity;
 
 namespace AqarPlatform.Domain.Entities
 {
-    public class ApplicationUser : IdentityUser<Guid>
+    public class ApplicationUser : IdentityUser
     {
         public string FullName { get; set; } = string.Empty;
 
@@ -10,6 +10,6 @@ namespace AqarPlatform.Domain.Entities
 
         public ICollection<Property> Properties { get; set; } = [];
         public ICollection<Favorite> Favorites { get; set; } = [];
-
+        public ICollection<Review> Reviews { get; set; }    =new HashSet<Review>();
     }
 }

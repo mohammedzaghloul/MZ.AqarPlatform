@@ -9,5 +9,7 @@ namespace AqarPlatform.Domain.Entities
         public string? ProfileImage { get; set; }
 
         public ICollection<Property> Properties { get; set; } = [];
+        public ICollection<Favorite> Favorites { get; set; } = [];
+
     }
 }

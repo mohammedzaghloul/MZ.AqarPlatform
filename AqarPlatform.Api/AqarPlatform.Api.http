@@ -1,6 +1,6 @@
-@AqarPlatform.Api_HostAddress = http://localhost:5186
+@AqarPlatform.API_HostAddress = http://localhost:5283
 
-GET {{AqarPlatform.Api_HostAddress}}/weatherforecast/
+GET {{AqarPlatform.API_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###

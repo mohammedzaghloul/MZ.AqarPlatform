@@ -10,6 +10,6 @@ namespace AqarPlatform.Domain.Entities
 
         public ICollection<Property> Properties { get; set; } = [];
         public ICollection<Favorite> Favorites { get; set; } = [];
-
+        public ICollection<Review> Reviews { get; set; }    =new HashSet<Review>();
     }
 }

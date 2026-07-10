@@ -7,9 +7,9 @@ using System.Text;
 
 namespace AqarPlatform.Persistence.Configurations.FeatureConfiguration
 {
-    public class FeatureConfg : IEntityTypeConfiguration<PropertyFeature>
+    public class FeatureConfg : IEntityTypeConfiguration<Feature>
     {
-        public void Configure(EntityTypeBuilder<PropertyFeature> builder)
+        public void Configure(EntityTypeBuilder<Feature> builder)
         {
             builder.HasKey(e => e.Id);
 

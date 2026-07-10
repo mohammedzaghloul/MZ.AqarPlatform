@@ -2,7 +2,7 @@ using AqarPlatform.Domain.Common;
 
 namespace AqarPlatform.Domain.Entities
 {
-    public class PropertyFeature : BaseEntity
+    public class Feature : BaseEntity
     {
         public string Name { get; set; } = string.Empty;
 

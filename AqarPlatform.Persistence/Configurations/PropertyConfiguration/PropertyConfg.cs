@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Text;
 
 namespace AqarPlatform.Persistence.Configurations.PropertyConfiguration
@@ -64,6 +65,16 @@ namespace AqarPlatform.Persistence.Configurations.PropertyConfiguration
                 .WithOne(i => i.Property)
                 .HasForeignKey(i => i.PropertyId)
                 .OnDelete(DeleteBehavior.Cascade);
+            //==================================
+
+            builder.Property(p => p.CreatedAt)
+                   .HasComputedColumnSql("GetDate()")
+                   .HasColumnType(nameof(DataType.Date));
+
+            builder.Property(p => p.UpdatedAt)
+                   .HasComputedColumnSql("GetDate()")
+                   .HasColumnType(nameof(DataType.Date));
+
         }
     }
 }

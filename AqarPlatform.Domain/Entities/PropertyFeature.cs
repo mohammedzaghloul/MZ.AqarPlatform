@@ -8,6 +8,6 @@ namespace AqarPlatform.Domain.Entities
 
         public Guid FeatureId { get; set; }
 
-        public Feature Feature { get; set; } = null!;
+        public PropertyFeature Feature { get; set; } = null!;
     }
 }

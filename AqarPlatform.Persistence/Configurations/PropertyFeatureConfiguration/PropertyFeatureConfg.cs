@@ -11,8 +11,6 @@ namespace AqarPlatform.Persistence.Configurations.PropertyFeatureConfiguration
     {
         public void Configure(EntityTypeBuilder<PropertyFeature> builder)
         {
-            builder.HasKey(x => new { x.PropertyId, x.FeatureId });
-
             builder.HasOne(pf => pf.Property)
                 .WithMany(p => p.PropertyFeatures)
                 .HasForeignKey(pf => pf.PropertyId);

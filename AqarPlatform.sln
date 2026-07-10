@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AqarPlatform.Application", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AqarPlatform.Shared", "AqarPlatform.Shared\AqarPlatform.Shared.csproj", "{78EFCDCB-A474-4724-8135-3AACB2919F26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AqarPlatform.API", "AqarPlatform.API\AqarPlatform.API.csproj", "{CE6DF6AC-55B0-42C2-889D-988A92FDA95C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AqarPlatform.Api", "AqarPlatform.Api\AqarPlatform.Api.csproj", "{0B307E1F-5845-4413-985E-748220287766}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,10 +41,10 @@ Global
 		{78EFCDCB-A474-4724-8135-3AACB2919F26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78EFCDCB-A474-4724-8135-3AACB2919F26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78EFCDCB-A474-4724-8135-3AACB2919F26}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CE6DF6AC-55B0-42C2-889D-988A92FDA95C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CE6DF6AC-55B0-42C2-889D-988A92FDA95C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CE6DF6AC-55B0-42C2-889D-988A92FDA95C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CE6DF6AC-55B0-42C2-889D-988A92FDA95C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B307E1F-5845-4413-985E-748220287766}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B307E1F-5845-4413-985E-748220287766}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B307E1F-5845-4413-985E-748220287766}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B307E1F-5845-4413-985E-748220287766}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -20,7 +20,7 @@ namespace AqarPlatform.Persistence.Configurations.AppUserConfiguration
                .HasMaxLength(50);
 
             builder.Property(u => u.PhoneNumber)
-              .IsRequired()
+             
               .HasMaxLength(50);
 
             builder.Property(u=>u.FullName)

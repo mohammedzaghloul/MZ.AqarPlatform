@@ -1,0 +1,42 @@
+﻿[
+  {
+    "Id": "8c6e2d52-56f9-4a47-ae68-6f58e2a9d001",
+    "FullName": "Mohamed Ahmed",
+    "ProfileImage": "/images/users/user1.jpg",
+    "UserName": "mohamed",
+    "Email": "mohamed@example.com",
+    "PhoneNumber": "01012345678"
+  },
+  {
+    "Id": "d3f8dfe4-2e34-4e5f-a1b7-5b8e7d5c0002",
+    "FullName": "Ahmed Hassan",
+    "ProfileImage": "/images/users/user2.jpg",
+    "UserName": "ahmed",
+    "Email": "ahmed@example.com",
+    "PhoneNumber": "01098765432"
+  },
+  {
+    "Id": "f2b0d5a7-88d3-45d0-a0d4-6e8d9c1f0003",
+    "FullName": "Mahmoud Ali",
+    "ProfileImage": "/images/users/user3.jpg",
+    "UserName": "mahmoud",
+    "Email": "mahmoud@example.com",
+    "PhoneNumber": "01112345678"
+  },
+  {
+    "Id": "c9b17e9b-1d5b-4b6f-b4d9-7d3a9a4c0004",
+    "FullName": "Omar Khaled",
+    "ProfileImage": "/images/users/user4.jpg",
+    "UserName": "omar",
+    "Email": "omar@example.com",
+    "PhoneNumber": "01234567890"
+  },
+  {
+    "Id": "ab9d8c76-3d21-4ef8-98e1-5f7d2b6a0005",
+    "FullName": "Youssef Adel",
+    "ProfileImage": "/images/users/user5.jpg",
+    "UserName": "youssef",
+    "Email": "youssef@example.com",
+    "PhoneNumber": "01555555555"
+  }
+]
